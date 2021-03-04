@@ -1,0 +1,56 @@
+body {
+  font-size: 2rem;
+  width: 97%;
+  margin: 0 auto;
+  background-color: peach;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+  text-shadow: 1px 1px black;
+  background-color: goldenrod;
+  padding: 1rem;
+  border: 1rem dotted orangered;
+}
+
+h2 {
+  background-color: goldenrod;
+  display: inline;
+  padding: 1rem;
+  border-radius: 0 0 3rem 0;
+}
+h3::after {
+  content: " ";
+  display: block;
+}
+
+img {
+  display: block;
+  width: 70%;
+  margin: 5rem auto;
+  border: 0.1em solid goldenrod;
+  border-radius: 0 3rem 0 3rem;
+}
+
+q::before,
+blockquote::before,
+q::before,
+blockquote::before,
+q::after,
+blockquote::after,
+q::after,
+blockquote::after {
+  content: '"';
+  font-size: 3rem;
+  color: crimson;
+}
+
+q,
+blockquote {
+  display: block;
+  background-color: white;
+  text-align: center;
+}
